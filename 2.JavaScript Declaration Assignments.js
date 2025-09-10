@@ -1,7 +1,7 @@
 // JavaScript Declaration Assignments 
 
 //  1. Declare 4 variables in the same line
-
+var x=4; var z=3; var y=2, var w=5;
 // 2. Find the wrong variable naming conventions  
 
 // 3. What happens if we declare same variable name multiple times 
@@ -27,5 +27,6 @@
 // Input your lastname: Davis 
 
 // Input your lastname: Davismvis: 1982 
+
 
 //  Expected Output : Tom Davis born on 1982
