@@ -1,5 +1,7 @@
 // Operators Assignment
 // 1. Given a variable var x = 23. Increment its value by 1.
+var x=23;
+console.log(++x);
 // 2. Given a variable var x = 48. Decrement its value by 1.
 // 3. Write a program to check a number is divisible by 7 or not
 // 4. Write a program to check a number is factor of 84 or not
@@ -37,4 +39,5 @@
 // 36. Find the area of a rectangle of length 25cm and breadth 16cm.
 // 37. Find the area of a circle of radius 3.75cm.
 // 38. Given the marks of 3 subjects as 67,48 and 74. Print the average marks of the 3 subjects.
+
 // 39. Given the cost of a product as ₹538.56, add 18% GST to it and print the total cost.
