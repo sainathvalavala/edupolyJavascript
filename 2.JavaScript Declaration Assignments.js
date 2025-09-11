@@ -1,32 +1,47 @@
-// JavaScript Declaration Assignments 
+// 1. Declare 4 variables in the same line
+    var x = 4, y = 2, z = 3, w = 5;
+    document.write("<b>1.</b> " + x + ", " + y + ", " + z + ", " + w + "<br><br>");
 
-//  1. Declare 4 variables in the same line
-var x=4; var z=3; var y=2, var w=5;
-// 2. Find the wrong variable naming conventions  
+    // 2. Wrong variable naming conventions
+    // var 1num = 5;   // ❌ invalid
+    // var my-name = 10; // ❌ invalid
+    // var let = 20;   // ❌ invalid
+    var num1 = 5, myName = "Tom", $price = 100, _id = 123; // ✅ valid
+    document.write("<b>2.</b> Valid examples: " + num1 + ", " + myName + ", " + $price + ", " + _id + "<br><br>");
 
-// 3. What happens if we declare same variable name multiple times 
+    // 3. Same variable multiple times
+    var a = 10;
+    var a = 20; // overwrites old value
+    document.write("<b>3.</b> a = " + a + " (overwritten)<br><br>");
 
-// 4. What happens if we assign value to undeclared variable 
+    // 4. Assign value to undeclared variable
+    undeclaredAssign = 50; // implicitly global
+    document.write("<b>4.</b> undeclaredAssign = " + undeclaredAssign + "<br><br>");
 
-// 5. What is the error we get by printing undeclared variable  
+    // 5. Printing undeclared variable
+    document.write("<b>5.</b> Printing undeclared variable gives ReferenceError in console.<br><br>");
+    // console.log(abc); // Uncomment to see ReferenceError
 
-// 6. declare a variable with string literal and assign values in single quote and double quotes copy.html 
+    // 6. String literal with single & double quotes
+    var str1 = 'Hello';
+    var str2 = "World";
+    document.write("<b>6.</b> " + str1 + " " + str2 + "<br><br>");
 
-// 7. declare a variable in script.html 
+    // 7 & 8. Declare variable and print it
+    var msg = "Hello JavaScript!";
+    document.write("<b>7 & 8.</b> " + msg + "<br><br>");
 
-// 8. print the variable value in script.html 
+    // 9. Declare two variables and print addition
+    var n1 = 10, n2 = 20;
+    var sum = n1 + n2;
+    document.write("<b>9.</b> Addition = " + sum + "<br><br>");
 
-// 9. declare two variables and print the addition.html 
+    // 10. String literal example
+    var greeting = "Welcome to JavaScript!";
+    document.write("<b>10.</b> " + greeting + "<br><br>");
 
-// 10. declare a variable with string literal.html 
-
-// 11. Write a program in JavaScript that reads a first name, last name and year of birth and display the names and the year one after another sequentially.  
-
-// Input your firstname: Tom 
-
-// Input your lastname: Davis 
-
-// Input your lastname: Davismvis: 1982 
-
-
-//  Expected Output : Tom Davis born on 1982
+    // 11. Program for first name, last name, year of birth
+    var firstName = "Tom";      // could use prompt("Enter first name:")
+    var lastName = "Davis";     // could use prompt("Enter last name:")
+    var year = "1982";          // could use prompt("Enter year of birth:")
+    document.write("<b>11.</b> " + firstName + " " + lastName + " born on " + year + "<br><br>");
