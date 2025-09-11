@@ -10,7 +10,7 @@
     var x= true;
     console.log(x)
 // 5. Create a variable and assign string value 
-
+ let x = "Shelby";
 // 6. Create a variable and assign undefined value 
 
 // 7. Create a variable and assign null value 
