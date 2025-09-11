@@ -4,6 +4,9 @@
 // #### Beginner Level
 
 // 1. Check if a number is divisible by 7.
+var x= 14;
+if(x/7 ==0){
+  console.log(`${x} is divisible by 7`)
 // 2. Check if a number is a factor of 84.
 // 3. Check if a number is a factor of 96.
 // 4. Check if a number is a multiple of 3.
@@ -62,4 +65,5 @@
 // 45. Check whether a number is positive, negative or zero using a switch case.
 // 46. Find roots of a quadratic equation using switch case.
 // 47. Create a Simple Calculator using a switch case.
+
 
